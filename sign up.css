@@ -1,0 +1,243 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: 100%; */
+    /* min-height: 00vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    line-height: 1.5; 
+    background-image: url(/IMG-20221218-WA0002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    border: 2px solid black;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: blue;
+    margin-top: -10px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px ;
+    z-index: 100000;
+
+}
+
+.menu  .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s
+
+
+}
+
+.menu ul{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu ul li{
+    position: relative;
+    list-style: none;
+    background-image: url(/banner.jpg);
+    border: 2px solid rgb(243, 208, 208);
+    margin: 2px;
+    border-radius: 5px ;
+}
+
+.menu ul li:hover{
+    background: rgb(198, 61, 61);
+}  
+.menu ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+.formbox{
+    border: 2px solid black;
+    width: 70%;
+    height:730px;
+    border-radius: 4px;
+    background-image: url(/R.jpg);
+    margin-top: 10%;
+    margin-bottom: 20px;
+    box-shadow:5px -0px 20px 10px black;
+}
+
+
+.formbox .head {
+    text-align: center;
+}
+
+
+.formbox .date{
+    text-align: right;
+    margin-top: -1.5%;
+    margin-right: 1%;
+}
+
+
+.formbox .name{
+    margin-left: 1%;
+    /* padding: 5px; */
+    margin-top: 20px;
+}
+
+
+.formbox .name .name1 input{
+    width: 40%;
+}
+
+.formbox .name .name2{
+    margin-top: -20px;
+}
+.formbox .name .name2 input{
+    margin-left: 12px;
+    width: 40%;
+}
+
+.formbox .name .name3{
+    margin-top: -20px;
+}
+.formbox .name .name3 input{
+    margin-left: 1px;
+    width: 40%;
+}
+
+.formbox .photo{
+    border: 2px solid black;
+    width: 60px;
+    height: 80px;
+    margin-right: -80%;
+    margin-top: -10%;
+    margin-bottom: 14px;
+}
+
+.formbox .add1{
+    margin-top: -10px;
+   
+}
+.formbox .add2{
+    margin-top: -1px;
+   
+}
+.formbox .add2 input{
+    width: 80%;
+    margin-left:21px ;
+    
+}
+.formbox .add1 input{
+    width: 80%;
+    
+
+}
+
+.formbox .religion input{
+    margin-left: 15px;
+    /* margin-right: 10px; */
+}
+.formbox .sex label span{
+    margin-left: 30px;
+}
+.formbox .sex input{
+    margin-left: 15px;
+    margin: 10px;
+}
+
+.formbox .dob label span{
+    margin-left: 24px;
+}
+
+.formbox .dob input{
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.formbox .BRN input{
+    width: 300px;
+    margin: 10px;
+}
+
+.formbox .nationality select{
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.formbox .classes label span{
+    margin-left:25px;
+}
+
+.formbox .classes select{
+    width: 150px;
+    margin: 10px;
+}
+.formbox .Group label span{
+    margin-left: 30px;
+}
+.formbox .Group input{
+    margin-left: 15px;
+    margin: 10px;
+}
+.formbox .number label{
+    margin-left: 20px;
+}
+
+.formbox .number input{
+    width: 180px;
+    margin: 10px;
+}
+
+.formbox .mediate input{
+    margin-left: 15px;
+}
+.formbox .subject h1{
+    text-align: center;
+}
+.formbox .subject input{
+    width: 98%;
+    height: 30px;
+   
+}
+
+.formbox .submit input{
+    width: 40%;
+    height: 30px;
+    margin-left: 30%;
+    margin-top: 10px;
+    background-color:hotpink;
+    border-radius: 10px;
+}
+
+.formbox .submit input:hover{
+    background-color: rgb(246, 60, 153);
+}
+.formbox .e-mail input{
+    width: 300px;
+}

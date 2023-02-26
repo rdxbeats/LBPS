@@ -1,0 +1,163 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: 100%; */
+    /* min-height: 00vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    line-height: 1.5; 
+}
+
+.menu{
+    border: 2px solid black;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: blue;
+    margin-top: -10px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px ;
+    z-index: 100000;
+
+}
+
+.menu  .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s
+
+
+}
+
+.menu ul{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu ul li{
+    position: relative;
+    list-style: none;
+    background-image: url(/banner.jpg);
+    border: 2px solid rgb(243, 208, 208);
+    margin: 2px;
+    border-radius: 5px ;
+}
+
+.menu ul li:hover{
+    background: rgb(198, 61, 61);
+}  
+.menu ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+.container{
+   /* width: 1100px; */
+   max-width: 100%;
+   max-width: 0  auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card{
+    width: 1000px;
+    height: 500px;
+    flex: 1 1 21rem;
+    margin: 110px 20px;
+    /* padding: 10px; */
+   flex-wrap:wrap;
+   /* align-items: center; */
+   align-self: normal;
+   display: flex;
+   flex-direction: column;
+    background: white;
+    background-image: url(/card\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 15px rgb(42, 39, 39);
+}
+.card img{
+    width: 60px;
+    height: 140px;
+    border: 2px solid pink;
+    margin-left: 35%;
+    border-radius:30px;
+   
+}
+
+.card h1{
+    padding-bottom:10px ;
+    text-shadow: 3px 3px 4px red;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.card h2{
+    text-align: left;
+    font-size: 1rem;
+    /* padding: 2px; */
+    margin-left:2px;
+    margin-bottom: 0px;
+}
+
+.card h4{
+    text-align: left;
+    font-size: 1rem;
+    margin-left:2px;
+    margin-bottom: 0px;
+}
+
+.card h3{
+
+}
+
+.card .btn{
+    display: inline-block;
+    background: green;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
